@@ -254,7 +254,7 @@ export function request(
     method: httpMethod,
     /* ensures behavior mimics XMLHttpRequest.
     needed to support sending IWA cookies */
-    credentials: "same-origin"
+    credentials: "include"
   };
 
   return (authentication
